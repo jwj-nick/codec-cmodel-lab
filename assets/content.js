@@ -13,7 +13,7 @@ const SUBJECT = {
   brandSub: "공식 AV1/AV2 레퍼런스 SW 직접 다뤄보기",
   title: "Codec C-Model Lab — libaom & AVM 직접 빌드·디버그하며 익히기",
   subtitle: "공식 레퍼런스 C 모델로 비디오 코덱 디코더를 손에 익히는 실습 노트",
-  story: "비디오 코덱은 <b>스펙(문서)</b>과 <b>레퍼런스 C 모델(코드)</b>이 한 쌍이다. AV1은 <b>libaom</b>, AV2는 <b>AVM</b>이 공식 레퍼런스다. 이 앱은 그 C 모델을 직접 <b>빌드 → 실행 → gdb로 디코드 경로 추적 → 스펙과 코드 잇기</b> 순서로 정리하고, <b>Track B</b>에서는 AV2 spec의 각 章을 AVM 디코더의 실제 함수·구조체와 이어 <b>AV1 대비 무엇이 어떻게 바뀌었는지</b>까지 판다. AV1을 아는 사람이 AV2 디코더 C 모델을 손에 넣기 위한 실습 가이드."
+  story: "비디오 코덱은 <b>스펙(문서)</b>과 <b>레퍼런스 C 모델(코드)</b>이 한 쌍이다. AV1은 <b>libaom</b>, AV2는 <b>AVM</b>이 공식 레퍼런스다. 이 앱은 그 C 모델을 직접 <b>빌드 → 실행 → gdb로 디코드 경로 추적 → 스펙과 코드 잇기</b> 순서로 정리하고, <b>Track B</b>에서는 AV2 spec의 각 章을 AVM 디코더의 실제 함수·구조체와 이어 <b>AV1 대비 무엇이 어떻게 바뀌었는지</b>까지 판다. AV1을 아는 사람이 AV2 디코더 C 모델을 손에 넣기 위한 실습 가이드.<br><br>👉 <b>tool 하나하나의 심화 과정</b>(Entropy Decoder·Transform&amp;Quant … spec + c-model 코드 + HW 아키텍처 사고)은 <a href='https://jwj-nick.github.io/codec-deepdive-lab/' target='_blank' rel='noopener'>Codec Deep-Dive Lab →</a>"
 };
 
 /* 자료 — 공식 링크만 (재배포 X) */
